@@ -1,0 +1,8 @@
+# Rust-Book 🦀
+
+This repository contains my examples with notes while reading the "Rust: The programming language"
+
+## Naming convention
+
+It is possible, that I've skipped certain parts (such as 3.X comments) as they are simple to understand and it's not really worth it.
+Also it's possible, that single package contains more chapters as I coded these examples randomly while reading.
