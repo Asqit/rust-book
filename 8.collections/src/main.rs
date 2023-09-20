@@ -33,7 +33,7 @@ fn main() {
     // 2) String
     // Strings are sequence of characters encoded in UTF-8 standard
     // Strings can grow and shrink on runtime. You can also conveniently 
-    // contact strings with + or the 'format!' macro
+    // concat strings with + or the 'format!' macro
     let mut foo: String = String::new();
 
     foo.push('a');
@@ -50,7 +50,8 @@ fn main() {
     // in order to get it's content and
     // because each variable can have at most one owner
     // we can't do "string + str" that would mean, that we would 
-    // try to get ownership of two strings.
+    // try to get ownership of two strings. which is not possible as 
+    // one identifier can at most have one ownership.
     let concat = foo + &bar;
 
     // Also notice, that even if we change the value of bar
